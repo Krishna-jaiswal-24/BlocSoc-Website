@@ -1,0 +1,27 @@
+.blog_logo{
+    height: 70px;
+}
+.blog_header{
+    display: flex;
+    align-items:baseline;
+    justify-content: center;
+}
+
+.blogs_container{
+    display: flex;
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: auto;
+}
+
+.blogs{
+    margin: 5rem;
+    background-color: #878787;
+}
+
+.header4{
+
+}

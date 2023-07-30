@@ -46,7 +46,8 @@ const Navbar = () => {
           </svg>
         </li>
         <li className="navbar_list_item">
-          Blogs
+        <Link className="navbar_links"  to="/blogs">
+        Blogs
           <svg
             width="24"
             height="24"
@@ -62,6 +63,8 @@ const Navbar = () => {
               stroke-linejoin="round"
             />
           </svg>
+        </Link>
+         
         </li>
         <li className="navbar_list_item">
           Register
