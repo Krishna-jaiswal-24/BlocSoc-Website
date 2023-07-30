@@ -1,0 +1,35 @@
+.teams_container{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: column;
+    width: 65vw;
+    margin: auto;
+
+}
+.teams_container_img{
+    width: 50%;
+    padding-top:2rem;
+    padding-bottom: 5rem ;
+}
+
+.teams_container .header1{
+    padding-bottom: 2rem;
+}
+
+.teams_container .header2{
+    line-height: 1.5;
+    padding-bottom: 6rem;
+}
+
+.teams_profile{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.individual_profiles{
+padding: 4rem;
+}
+

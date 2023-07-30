@@ -1,16 +1,21 @@
-import Navbar from "./components/Navbar";
-import Footer from './components/Footer';
-import Newsletter from "./components/Newsletter";
+import Home from './pages/Home';
 import './App.css'
+import Team from './pages/Team';
+import {Routes, Route} from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+
 function App() {
   return (
       <>
-        <Navbar />
-        <div>
-          <Newsletter />
+      <Navbar />
+       <Routes >
+        <Route path='/' element={<Home />} />
+        <Route path='/team' element={<Team />} />
+        <Route ></Route>
+       </Routes>
 
-        </div>
-        <Footer />
+       <Footer />
       </>
   );
 }

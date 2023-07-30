@@ -1,11 +1,62 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Varela+Round&display=swap');
 
-*{ 
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: #121315;
 }
+
+.button_1 {
+    font-family: 'Poppins';
+    background: #2563EB;
+    border-radius: 7px;
+    padding: 12px 25px 12px 25px;
+    color: white;
+}
+
+
+.button_2 {
+    font-family: 'Poppins';
+    background: #484848;
+    border-radius: 7px;
+    padding: 12px 25px 12px 25px;
+    color: white;
+}
+
+/* Some predefined classes */
+
+.header1{
+    font-size: 70px;
+    word-wrap: normal;
+    line-height: 1.15;
+    color: white;
+    font-family: 'Poppins';
+}
+
+.header2{
+    font-size: 30px;
+    word-wrap:normal;
+    line-height: 1.15;
+    color: white;
+    font-family: 'Poppins';
+    text-align: center;
+}
+
+.color_blue{
+    color:#5CE1E6;
+}
+
+.header3{
+    font-size: 30px;
+    word-wrap:normal;
+    line-height: 1.15;
+    color: white;
+    font-family: 'Poppins';
+    text-align: center;
+}
+
+
+

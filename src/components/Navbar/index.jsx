@@ -1,13 +1,15 @@
 import React from "react";
 import logo from "../../resources/Bloc.png";
 import "./navbar.css";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <img className="navbar_logo" src={logo} alt="logo" />
+      <Link className="navbar_links"  to="/">
+        <img className="navbar_logo" src={logo} alt="logo" />
+      </Link>
       <ul className="navbar_list">
         <li className="navbar_list_item">
-          {" "}
           Projects
           <svg
             width="24"
@@ -26,7 +28,7 @@ const Navbar = () => {
           </svg>
         </li>
         <li className="navbar_list_item">
-          Team
+          <Link  className="navbar_links" to="/team">Team</Link>
           <svg
             width="24"
             height="24"

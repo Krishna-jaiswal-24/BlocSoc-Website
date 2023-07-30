@@ -1,0 +1,32 @@
+.hero_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    margin: auto;
+
+}
+
+.hero_section_logo{
+    width: 400px;
+    height:400px;
+
+}
+.container{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container p{
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+.hero_cta{
+    margin-top: 1rem;
+}
+.hero_cta .button_2{
+    margin-left: 2rem;
+}
