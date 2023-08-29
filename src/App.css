@@ -58,5 +58,18 @@ body {
     text-align: center;
 }
 
+.blogs_container_row{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
+.header4{
+    font-size: 1.5rem;
+    word-wrap:normal;
+    font-family: 'Poppins';
+    text-align: center;
+}
 
